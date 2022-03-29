@@ -5,12 +5,15 @@ import App from './App';
 import store from './Stores';
 import { StoreProvider } from 'easy-peasy';
 import * as serviceWorker from './serviceWorker';
+import { HashRouter } from 'react-router-dom';
 
 
 
 ReactDOM.render(
     <StoreProvider store={store}>
-        <App />
+        <HashRouter>
+            <App />
+        </HashRouter>
     </StoreProvider>
     , document.getElementById('root'));
 

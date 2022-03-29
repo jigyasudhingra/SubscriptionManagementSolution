@@ -8,11 +8,9 @@ import Boot from './Boot';
 const App: React.FC = () => {
   Boot().then(() => { });
   return (
-    <HashRouter>
       <MuiThemeProvider theme={Theme}>
         <RootLayout />
       </MuiThemeProvider>
-    </HashRouter>
   );
 };
 
