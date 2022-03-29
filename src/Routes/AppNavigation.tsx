@@ -11,7 +11,7 @@ const Appnavigation: FC = () => {
         <>
             <Suspense fallback={<LinearProgress />}>
                 <Switch>
-                    <Route path="/" exact component={Landing} />
+                    <Route path="/SubscriptionManagementSolution/" exact component={Landing} />
                     <Route path="/*" exact component={Page404} />
                 </Switch>
             </Suspense>
