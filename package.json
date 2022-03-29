@@ -2,7 +2,7 @@
   "name": "subscription-management",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jigyasudhingra.github.io/SubscriptionManagementSolution/",
+  "homepage": "https://jigyasudhingra.github.io/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.8.1",
